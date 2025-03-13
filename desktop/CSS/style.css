@@ -35,7 +35,7 @@ article {
     padding: 20px;
     border-radius: 10px;
     box-sizing: border-box;
-    transition: all 0.3s ease;
+    transition: all 0.5s ease;
     border: 5px solid transparent; /* Anfangs unsichtbarer Rand */
     border-radius: 10px;
     background-clip: padding-box; /* Damit der Verlauf nur den Rand betrifft */

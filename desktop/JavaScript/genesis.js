@@ -11,6 +11,11 @@ function Menu(point) {
     document.getElementById(point).style.display = "flex"
 }
 
+document.addEventListener('contextmenu', function(event)
+{
+    event.preventDefault()
+})
+
 document.getElementById("Headline").onmouseenter = () => {
     _Guard.style.display = "block"
 }
